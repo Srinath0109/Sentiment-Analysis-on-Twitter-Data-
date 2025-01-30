@@ -1,0 +1,10 @@
+SentimentAnalysis/
+│── data/                     # Store dataset (optional)
+│── sentiment_analysis/        # Main App
+│   │── twitter_auth.py        # Twitter API Authentication
+│   │── fetch_tweets.py        # Fetch Tweets from Twitter API
+│   │── preprocess.py          # Text Preprocessing (NLTK)
+│   │── sentiment_model.py     # Train & Evaluate Model
+│   │── analyze.py             # Predict Sentiment of Live Tweets
+│── requirements.txt           # Dependencies
+│── README.md                  # Documentation
